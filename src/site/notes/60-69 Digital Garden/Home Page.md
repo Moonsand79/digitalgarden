@@ -5,7 +5,10 @@
 
 ![Do You Know Who You Are.png](/img/user/10-19%20Media%20Hoard/17%20Other/Do%20You%20Know%20Who%20You%20Are.png)
 
+<div align="center">
 # — G O W A N I I —
+</div>
+
 ## *​A ledger for the strange, the quiet, and the half-remembered.*
 > “We write to taste life twice, in the moment and in retrospect.” 
 > — *Anaïs Nin*
