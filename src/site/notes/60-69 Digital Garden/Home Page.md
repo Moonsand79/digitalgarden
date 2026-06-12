@@ -3,8 +3,7 @@
 ---
 
 # — I O R W E R T H —
-## *an archive of ink, ghosts, and forgotten folklore*
-
+## *​A ledger for the strange, the quiet, and the half-remembered.*
 > “We write to taste life twice, in the moment and in retrospect.” 
 > — *Anaïs Nin*
 
