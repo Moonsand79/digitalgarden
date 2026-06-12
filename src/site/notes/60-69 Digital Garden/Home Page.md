@@ -38,4 +38,4 @@ A scathing review by an influential Soho record-shop owner pushes a manic, unmed
 
 ***
 
-###### [About the Author](About.md) · [Contact](Contact.md)
+###### [[60-69 Digital Garden/About\|About]] | [[60-69 Digital Garden/Contact\|Contact]]
