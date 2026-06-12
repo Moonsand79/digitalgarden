@@ -2,6 +2,9 @@
 {"dg-publish":true,"dg-permalink":"home","permalink":"/home/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
+
+![Do You Know Who You Are.png](/img/user/10-19%20Media%20Hoard/17%20Other/Do%20You%20Know%20Who%20You%20Are.png)
+
 # — G O W A N I I —
 ## *​A ledger for the strange, the quiet, and the half-remembered.*
 > “We write to taste life twice, in the moment and in retrospect.” 
