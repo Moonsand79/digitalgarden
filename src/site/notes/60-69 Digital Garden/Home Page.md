@@ -2,7 +2,7 @@
 {"dg-publish":true,"dg-permalink":"home","permalink":"/home/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
-# — I O R W E R T H —
+# — G O W A N I I —
 ## *​A ledger for the strange, the quiet, and the half-remembered.*
 > “We write to taste life twice, in the moment and in retrospect.” 
 > — *Anaïs Nin*
