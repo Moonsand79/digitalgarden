@@ -9,7 +9,11 @@
 
 </div>
 
+<div align="center">
+
 ## *Where to find me.*
+
+</div>
 
 ***
 
