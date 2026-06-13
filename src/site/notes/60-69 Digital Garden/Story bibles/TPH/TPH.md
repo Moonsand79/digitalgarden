@@ -45,7 +45,7 @@ When a disillusioned French prince is captured at sea, his survival depends on n
 *17th-century naval warfare, the history of the Mediterranean corsairs, ship terminology, and sailing routes.*
 
 #### 🕯️ [[TPH-Aesthetics\|Aesthetics]]
-*Visual mood boards, costume references, sea music, and playlists.*
+*Visual mood boards, costume references, Pinterest boards, and playlists.*
 
 ***
 
