@@ -69,6 +69,6 @@ A master directory of active settings and universes. Each link connects to a ded
 
 <div align="center">
 
-#### [[60-69 Digital Garden/Home Page\|Home Page]] | [[60-69 Digital Garden/About\|About]]
+#### [[60-69 Digital Garden/Home Page\|Back to Main]] | [[60-69 Digital Garden/About\|Back to About]]
 
 </div>
