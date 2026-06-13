@@ -17,8 +17,7 @@
 
 </div>
 
->[!quote] “Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind.”  
-> ― Virginia Woolf
+> [!quote] “Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind.”  ― Virginia Woolf
 
 ***
 
