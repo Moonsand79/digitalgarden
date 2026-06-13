@@ -30,7 +30,7 @@ A scathing review by an influential Soho record-shop owner pushes a manic, unmed
 #### 📖 [[Stories\|Stories]]
 *Original fiction, flash pieces, and short narratives.*
 
-#### 🗺️ [[Worldbuilding\|Worldbuilding]]
+#### 🗺️ [[60-69 Digital Garden/Story bibles/Story bibles\|Story bibles]]
 *Lore sheets, character profiles, settings, and the mechanics of unseen realms.*
 
 #### 🌿 [[Commonplace Book\|Commonplace Book]]
