@@ -60,7 +60,7 @@ A master directory of active settings and universes. Each link connects to a ded
 * [[20-29 The Study/20 Writing/20.04 Projects Q-T/T/TTC/The 27 Club\|The 27 Club]]
 * [[20-29 The Study/20 Writing/20.04 Projects Q-T/T/TBN/The Bostonian\|The Bostonian]]
 * [[20-29 The Study/20 Writing/20.04 Projects Q-T/T/TDV/The Devoted\|The Devoted]]
-* [[To Plunder A Heart\|To Plunder A Heart]]
+* [[60-69 Digital Garden/Story bibles/TPH/TPH\|TPH]]
 * [[20-29 The Study/20 Writing/20.05 Projects U-W/V/VVS/Verse & Varsity\|Verse & Varsity]]
 
 </div>
