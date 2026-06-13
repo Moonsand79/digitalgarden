@@ -22,7 +22,7 @@
 
 ***
 
-### 🖋️ Current Project: *Built For Sin*
+### 🖋️ Main Project: *Built For Sin*
 A scathing review by an influential Soho record-shop owner pushes a manic, unmedicated rock frontman into a desperate midnight crusade for vindication—igniting a volatile feud that threatens to expose the critic's secret past and destroy his defense in an ongoing undue influence lawsuit.
 - **Status:** Drafting 
 - **Themes:** Grief | Mental Health | Character Growth
