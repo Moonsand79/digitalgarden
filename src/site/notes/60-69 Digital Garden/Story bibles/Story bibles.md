@@ -7,9 +7,9 @@
 
 # — S T O R Y B I B L E S —
 
-</div>
-
 ## *The blueprints, lore, and mechanics of unseen realms.*
+
+</div>
 
 ***
 
