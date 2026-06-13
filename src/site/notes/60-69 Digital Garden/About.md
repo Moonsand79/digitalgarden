@@ -30,6 +30,6 @@ When I'm not trying to fix a messy first draft, I spend my time digging through 
 
 <div align="center">
 
-#### [[60-69 Digital Garden/Home Page\|Back to Main]] | [[Contact \| Back to Contacts]]
+#### [[60-69 Digital Garden/Home Page\|Back to Main]] | [[60-69 Digital Garden/Contact\|Back to Contacts]]
 
 </div>
