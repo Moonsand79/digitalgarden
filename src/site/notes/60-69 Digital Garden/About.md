@@ -9,7 +9,11 @@
 
 </div>
 
+<div align="center">
+
 ## *Notes on the margins, bad luck, and local history.*
+
+</div>
 
 ***
 
