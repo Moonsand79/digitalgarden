@@ -39,6 +39,6 @@ I am generally around on these platforms under **gowaniios**:
 
 <div align="center">
 
-#### [[60-69 Digital Garden/Home Page\|Home Page]] | [[60-69 Digital Garden/About\|About]]
+#### [[60-69 Digital Garden/Home Page\|Back to Main]] | [[About \| Back to About]]
 
 </div>
