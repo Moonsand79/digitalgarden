@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# — S T O R Y B I B L E SS —
+# — S T O R Y B I B L E S —
 
 </div>
 
