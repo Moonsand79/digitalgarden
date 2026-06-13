@@ -58,6 +58,6 @@ When a disillusioned French prince is captured at sea, his survival depends on n
 
 <div align="center">
 
-#### [[worldbuilding\|Back to Worldbuilding]] | [[home\|Back to Main]]
+#### [[60-69 Digital Garden/Story bibles/Story bibles\|Back to Story Bibles]] | [[60-69 Digital Garden/Home Page\|Back to Main]]
 
 </div>
