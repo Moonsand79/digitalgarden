@@ -11,7 +11,12 @@
 
 </div>
 
+<div align="center">
+
 ## *​A ledger for the strange, the quiet, and the half-remembered.*
+
+</div>
+
 > “We write to taste life twice, in the moment and in retrospect.” 
 > — *Anaïs Nin*
 
