@@ -7,7 +7,7 @@
 
 <div align="center">
 
-# — G O W A N I I —
+# — GOWANIIOS—
 
 </div>
 
