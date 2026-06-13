@@ -7,9 +7,9 @@
 
 <div align="center">
 
-# — T O P L U N D E R A H E A R T —
+# — TO PLUNDER A HEART —
 
-</div>.
+</div>
 
 <div align="center">
 
