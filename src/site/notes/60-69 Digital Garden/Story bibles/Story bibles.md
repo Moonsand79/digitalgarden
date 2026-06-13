@@ -7,6 +7,10 @@
 
 # — S T O R Y B I B L E S —
 
+</div>
+
+<div align="center">
+
 ## *The blueprints, lore, and mechanics of unseen realms.*
 
 </div>
