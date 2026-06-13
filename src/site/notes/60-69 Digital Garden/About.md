@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# — A B O U T —
+# — ABOUT —
 
 </div>
 
