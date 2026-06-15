@@ -3,7 +3,7 @@
 ---
 
 
-![Do You Know Who You Are.png](/img/user/10-19%20Media%20Hoard/17%20Other/Do%20You%20Know%20Who%20You%20Are.png)
+![Do You Know Who You Are.png](/img/user/10-19%20Media%20Hoard/18%20Other/18.00%20Website/Do%20You%20Know%20Who%20You%20Are.png)
 
 <div align="center">
 
@@ -34,7 +34,7 @@ When a disillusioned French prince is captured at sea, his survival depends on n
 #### 📖 [[Stories\|Stories]]
 *Original fiction, flash pieces, and short narratives.*
 
-#### 🗺️ [[60-69 Digital Garden/Story bibles/Story bibles\|Story bibles]]
+#### 🗺️ [[60-69 Digital Garden/Story Bibles/Story Bibles\|Story bibles]]
 *Lore sheets, character profiles, settings, and the mechanics of unseen realms.*
 
 #### 🌿 [[Commonplace Book\|Commonplace Book]]
