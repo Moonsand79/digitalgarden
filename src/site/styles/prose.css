@@ -1,0 +1,53 @@
+/* ==========================================================================
+ * STRICT BOOK PROSE TYPESETTING (cssclasses: prose)
+ * ========================================================================== */
+
+/* Force proper structural spacing for fiction text blocks */
+.prose p, 
+.prose .cm-line,
+.prose .markdown-preview-section > div > p {
+    display: block !important; /* Smashes through theme flex layouts */
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    line-height: 1.65 !important;
+    text-align: left !important;
+}
+
+/* Force the exact 0.5-inch first-line indent on ALL prose lines */
+.prose p, 
+.prose .cm-line,
+.prose .markdown-preview-section > div > p {
+    text-indent: 0.5in !important;
+}
+
+/* EXCLUSIONS: Kill the indent on the absolute first paragraph of the document */
+.prose .markdown-preview-section > div:first-child p,
+.prose .markdown-rendered p:first-of-type,
+.prose .cm-content > div:first-child .cm-line {
+    text-indent: 0px !important;
+}
+
+/* EXCLUSIONS: Kill the indent on paragraphs directly following headers, callouts, or queries */
+.prose h3 + p,
+.prose div:has(h3) + p,
+.prose .callout + p,
+.prose .block-language-dataview + p,
+.prose .cm-embed-block + p {
+    text-indent: 0px !important;
+}
+
+/* Give explicit visual breathing room to headers, cards, and metadata callouts */
+.prose h3, .prose .HyperMD-header-3 {
+    text-indent: 0px !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.prose .callout, 
+.prose .block-language-dataview,
+.prose .cm-embed-block {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
