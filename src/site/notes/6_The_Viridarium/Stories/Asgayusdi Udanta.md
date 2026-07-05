@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Asgayusdi Udanta","permalink":"/Asgayusdi Udanta/","dg-note-properties":{}}
+{"dg-publish":true,"dg-permalink":"Asgayusdi Udanta","permalink":"/Asgayusdi Udanta/","dg-note-properties":{"cssclasses":"prose"}}
 ---
 
 
