@@ -805,135 +805,78 @@ a.button {
     font-size: 0;
   }
 }
-/* ==========================================================================
-   DIGITAL GARDEN STORY CARDS — CLEAN MOBILE FIX
-   ========================================================================== */
-
-.cards table.dataview thead {
-  display: none !important;
-}
-
-.cards table.dataview,
-.cards table.dataview tbody,
-.cards table.dataview tbody tr,
-.cards table.dataview tbody td {
-  border: 0 !important;
-  background: transparent !important;
-}
-
-.cards table.dataview tbody {
-  display: grid !important;
-  grid-template-columns: 1fr !important;
-  gap: 2.25rem !important;
-  padding: 0 !important;
-  margin: 2rem 0 !important;
-}
+/* STORY CARDS — FORCE COMPACT + BIG COVER */
 
 .cards table.dataview tbody tr {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
+  display: grid !important;
+  grid-template-rows: auto auto auto auto !important;
+  row-gap: 1.4rem !important;
+  align-items: start !important;
 
-  padding: 2.25rem 1.5rem !important;
-  border: 1px solid var(--background-modifier-border) !important;
-  border-radius: 12px !important;
-  background: var(--background-primary-alt, #fffaf5) !important;
-  box-sizing: border-box !important;
+  padding: 2rem 1.4rem !important;
+  min-height: 0 !important;
 }
 
-/* Title */
+/* remove weird inherited spacing from cells/paragraphs */
+.cards table.dataview tbody tr td,
+.cards table.dataview tbody tr td p,
+.cards table.dataview tbody tr td div {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 0 !important;
+}
+
+/* title */
 .cards table.dataview tbody tr td:nth-child(1),
 .cards table.dataview tbody tr td:nth-child(1) a {
-  width: 100% !important;
-  text-align: center !important;
-  color: var(--rp-rose, #eb6f92) !important;
-  font-size: clamp(1.5rem, 7vw, 2.15rem) !important;
-  font-weight: 800 !important;
-  line-height: 1.15 !important;
-  text-decoration: underline !important;
-  text-underline-offset: 0.12em !important;
-  margin: 0 0 2rem 0 !important;
-  overflow: visible !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Cover */
+/* cover wrapper */
 .cards table.dataview tbody tr td:nth-child(2) {
   width: 100% !important;
-  margin: 0 0 2.25rem 0 !important;
-  text-align: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-.cards table.dataview tbody tr td:nth-child(2) img {
-  display: block !important;
-  width: min(100%, 420px) !important;
-  max-width: 420px !important;
+/* cover image — BIGGER */
+.cards table.dataview tbody tr td:nth-child(2) img,
+.cards table.dataview tbody tr td:nth-child(2) picture img,
+.cards table.dataview tbody tr td:nth-child(2) .internal-embed img,
+.cards table.dataview tbody tr td:nth-child(2) .image-embed img {
+  width: 100% !important;
+  max-width: 360px !important;
+  min-width: 260px !important;
   height: auto !important;
   max-height: none !important;
-  margin: 0 auto !important;
   object-fit: contain !important;
-  border-radius: 8px !important;
+  display: block !important;
+  margin: 0 auto !important;
 }
 
-/* Logline */
-.cards table.dataview tbody tr td:nth-child(3) {
-  width: 100% !important;
-  text-align: left !important;
-  font-size: 1rem !important;
-  line-height: 1.45 !important;
-  margin: 0 0 1.5rem 0 !important;
-}
-
-/* Warnings */
-.cards table.dataview tbody tr td:nth-child(4) {
-  width: 100% !important;
-  text-align: center !important;
-  font-size: 0.95rem !important;
-  font-weight: 800 !important;
-  line-height: 1.55 !important;
-  letter-spacing: 0.05em !important;
-  text-transform: uppercase !important;
-  color: var(--text-muted, #797593) !important;
-}
-
-/* ==========================================================================
-   HEADING FLOWERS — STOP CLIPPING
-   ========================================================================== */
-
-.markdown-rendered h1,
-.markdown-rendered h2,
-.markdown-rendered h3 {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  gap: 0.35rem !important;
-
-  width: 100% !important;
-  max-width: 100% !important;
-  padding-inline: 0.75rem !important;
-  box-sizing: border-box !important;
-  overflow: visible !important;
-  text-align: center !important;
-  white-space: normal !important;
-}
-
-.markdown-rendered h1::before,
-.markdown-rendered h2::before,
-.markdown-rendered h3::before,
-.markdown-rendered h1::after,
-.markdown-rendered h2::after,
-.markdown-rendered h3::after {
-  flex: 0 0 auto !important;
-  display: inline-block !important;
-  margin: 0 !important;
-  white-space: nowrap !important;
-}
-
-/* On narrow screens, hide the left flower so the title never clips */
+/* mobile cover should nearly fill card */
 @media (max-width: 700px) {
-  .markdown-rendered h1::before,
-  .markdown-rendered h2::before,
-  .markdown-rendered h3::before {
-    display: none !important;
-    content: none !important;
+  .cards table.dataview tbody tr td:nth-child(2) img,
+  .cards table.dataview tbody tr td:nth-child(2) picture img,
+  .cards table.dataview tbody tr td:nth-child(2) .internal-embed img,
+  .cards table.dataview tbody tr td:nth-child(2) .image-embed img {
+    width: 92% !important;
+    max-width: 380px !important;
+    min-width: 300px !important;
   }
+}
+
+/* logline */
+.cards table.dataview tbody tr td:nth-child(3) {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* warnings */
+.cards table.dataview tbody tr td:nth-child(4) {
+  margin: 0 !important;
+  padding: 0 !important;
 }
