@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&family=Lexend:wght@300;400;500;600;700&display=swap');
 
 /* ==========================================================================
@@ -785,98 +784,208 @@ a.button {
   font-size: 92px;
 }
 
-/* Hide visible markdown heading hashes inside published cards */
-.cards h1::before,
-.cards h2::before,
-.cards h3::before,
-.cards h4::before,
-.cards h5::before,
-.cards h6::before {
-  content: "" !important;
+/* ==========================================================================
+ * 12. What was intentionally removed from the Obsidian snippets
+ * --------------------------------------------------------------------------
+ * These selectors do not exist on the published Digital Garden site, so they
+ * were not carried over as primary styling targets:
+ * .workspace, .workspace-split, .workspace-leaf, .nav-files-container,
+ * .canvas-node, .markdown-source-view, .cm-editor, .cm-line, .cm-sizer,
+ * .tree-item-self, .nav-file-title, .nav-folder-title.
+ * ========================================================================== */
+
+/* ==========================================================================
+ * 13. FINAL STORY CARD REPAIR
+ * Use this section last. It fixes cropped covers, oversized gaps, and card layout
+ * for Digital Garden Dataview cards.
+ * ========================================================================== */
+
+/* Do not let the global table styles crop card contents. */
+.cards table,
+.cards table.dataview,
+.cards table.table-view-table,
+.cards table tbody,
+.cards table.dataview tbody,
+.cards table.table-view-table tbody,
+.cards table tr,
+.cards table.dataview tr,
+.cards table.table-view-table tr,
+.cards table td,
+.cards table.dataview td,
+.cards table.table-view-table td {
+  overflow: visible !important;
 }
 
-.cards h1,
-.cards h2,
-.cards h3,
-.cards h4,
-.cards h5,
-.cards h6 {
-  &::first-letter {
-    font-size: 0;
-  }
+/* Card grid. */
+.cards table.dataview tbody,
+.cards table.table-view-table tbody,
+.cards table tbody {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 2rem !important;
+  width: 100% !important;
+  margin: 2rem 0 !important;
+  padding: 0 !important;
 }
-/* STORY CARDS — FORCE COMPACT + BIG COVER */
 
-.cards table.dataview tbody tr {
+/* Card shell. */
+.cards table.dataview tbody tr,
+.cards table.table-view-table tbody tr,
+.cards table tbody tr {
   display: grid !important;
   grid-template-rows: auto auto auto auto !important;
-  row-gap: 1.4rem !important;
+  justify-items: center !important;
   align-items: start !important;
-
-  padding: 2rem 1.4rem !important;
+  row-gap: 1.15rem !important;
+  width: 100% !important;
   min-height: 0 !important;
+  padding: 1.75rem 1.35rem !important;
+  box-sizing: border-box !important;
+  background: var(--rp-surface) !important;
+  border: 1px solid var(--background-modifier-border) !important;
+  border-radius: 10px !important;
 }
 
-/* remove weird inherited spacing from cells/paragraphs */
+/* Reset all cell spacing so the card does not get huge gaps. */
 .cards table.dataview tbody tr td,
 .cards table.dataview tbody tr td p,
-.cards table.dataview tbody tr td div {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+.cards table.dataview tbody tr td div,
+.cards table.table-view-table tbody tr td,
+.cards table.table-view-table tbody tr td p,
+.cards table.table-view-table tbody tr td div,
+.cards table tbody tr td,
+.cards table tbody tr td p,
+.cards table tbody tr td div {
+  margin: 0 !important;
+  padding: 0 !important;
   min-height: 0 !important;
+  box-sizing: border-box !important;
 }
 
-/* title */
+/* Title. */
 .cards table.dataview tbody tr td:nth-child(1),
-.cards table.dataview tbody tr td:nth-child(1) a {
-  margin: 0 !important;
-  padding: 0 !important;
+.cards table.dataview tbody tr td:nth-child(1) a,
+.cards table.table-view-table tbody tr td:nth-child(1),
+.cards table.table-view-table tbody tr td:nth-child(1) a,
+.cards table tbody tr td:nth-child(1),
+.cards table tbody tr td:nth-child(1) a {
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+  color: var(--rp-rose) !important;
+  font-size: clamp(1.35rem, 6vw, 1.95rem) !important;
+  font-weight: 800 !important;
+  line-height: 1.15 !important;
+  text-decoration-thickness: 0.08em !important;
+  text-underline-offset: 0.13em !important;
 }
 
-/* cover wrapper */
-.cards table.dataview tbody tr td:nth-child(2) {
+/* Cover cell and all embed wrappers. */
+.cards table.dataview tbody tr td:nth-child(2),
+.cards table.dataview tbody tr td:nth-child(2) a,
+.cards table.dataview tbody tr td:nth-child(2) span,
+.cards table.dataview tbody tr td:nth-child(2) picture,
+.cards table.dataview tbody tr td:nth-child(2) .internal-embed,
+.cards table.dataview tbody tr td:nth-child(2) .image-embed,
+.cards table.table-view-table tbody tr td:nth-child(2),
+.cards table.table-view-table tbody tr td:nth-child(2) a,
+.cards table.table-view-table tbody tr td:nth-child(2) span,
+.cards table.table-view-table tbody tr td:nth-child(2) picture,
+.cards table.table-view-table tbody tr td:nth-child(2) .internal-embed,
+.cards table.table-view-table tbody tr td:nth-child(2) .image-embed,
+.cards table tbody tr td:nth-child(2),
+.cards table tbody tr td:nth-child(2) a,
+.cards table tbody tr td:nth-child(2) span,
+.cards table tbody tr td:nth-child(2) picture,
+.cards table tbody tr td:nth-child(2) .internal-embed,
+.cards table tbody tr td:nth-child(2) .image-embed {
+  display: block !important;
   width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* cover image — BIGGER */
-.cards table.dataview tbody tr td:nth-child(2) img,
-.cards table.dataview tbody tr td:nth-child(2) picture img,
-.cards table.dataview tbody tr td:nth-child(2) .internal-embed img,
-.cards table.dataview tbody tr td:nth-child(2) .image-embed img {
-  width: 100% !important;
-  max-width: 360px !important;
-  min-width: 260px !important;
+  max-width: 420px !important;
   height: auto !important;
   max-height: none !important;
-  object-fit: contain !important;
-  display: block !important;
+  min-height: 0 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
   margin: 0 auto !important;
+  padding: 0 !important;
 }
 
-/* mobile cover should nearly fill card */
+/* Cover image: forced uncropped. */
+.cards table.dataview tbody tr td:nth-child(2) img,
+.cards table.table-view-table tbody tr td:nth-child(2) img,
+.cards table tbody tr td:nth-child(2) img {
+  display: block !important;
+  width: min(100%, 420px) !important;
+  max-width: 420px !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  object-position: center center !important;
+  overflow: visible !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  border-radius: 8px !important;
+}
+
+/* Logline. */
+.cards table.dataview tbody tr td:nth-child(3),
+.cards table.table-view-table tbody tr td:nth-child(3),
+.cards table tbody tr td:nth-child(3) {
+  width: 100% !important;
+  text-align: left !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  color: var(--rp-text) !important;
+}
+
+/* Warnings. */
+.cards table.dataview tbody tr td:nth-child(4),
+.cards table.table-view-table tbody tr td:nth-child(4),
+.cards table tbody tr td:nth-child(4) {
+  width: 100% !important;
+  text-align: center !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  line-height: 1.55 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  color: var(--rp-subtle) !important;
+}
+
+/* Mobile card cover size. */
 @media (max-width: 700px) {
-  .cards table.dataview tbody tr td:nth-child(2) img,
-  .cards table.dataview tbody tr td:nth-child(2) picture img,
-  .cards table.dataview tbody tr td:nth-child(2) .internal-embed img,
-  .cards table.dataview tbody tr td:nth-child(2) .image-embed img {
-    width: 92% !important;
-    max-width: 380px !important;
-    min-width: 300px !important;
+  .cards table.dataview tbody tr,
+  .cards table.table-view-table tbody tr,
+  .cards table tbody tr {
+    padding: 1.6rem 1.15rem !important;
+    row-gap: 1.1rem !important;
   }
-}
 
-/* logline */
-.cards table.dataview tbody tr td:nth-child(3) {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* warnings */
-.cards table.dataview tbody tr td:nth-child(4) {
-  margin: 0 !important;
-  padding: 0 !important;
+  .cards table.dataview tbody tr td:nth-child(2),
+  .cards table.dataview tbody tr td:nth-child(2) a,
+  .cards table.dataview tbody tr td:nth-child(2) span,
+  .cards table.dataview tbody tr td:nth-child(2) picture,
+  .cards table.dataview tbody tr td:nth-child(2) .internal-embed,
+  .cards table.dataview tbody tr td:nth-child(2) .image-embed,
+  .cards table.table-view-table tbody tr td:nth-child(2),
+  .cards table.table-view-table tbody tr td:nth-child(2) a,
+  .cards table.table-view-table tbody tr td:nth-child(2) span,
+  .cards table.table-view-table tbody tr td:nth-child(2) picture,
+  .cards table.table-view-table tbody tr td:nth-child(2) .internal-embed,
+  .cards table.table-view-table tbody tr td:nth-child(2) .image-embed,
+  .cards table tbody tr td:nth-child(2),
+  .cards table tbody tr td:nth-child(2) a,
+  .cards table tbody tr td:nth-child(2) span,
+  .cards table tbody tr td:nth-child(2) picture,
+  .cards table tbody tr td:nth-child(2) .internal-embed,
+  .cards table tbody tr td:nth-child(2) .image-embed,
+  .cards table.dataview tbody tr td:nth-child(2) img,
+  .cards table.table-view-table tbody tr td:nth-child(2) img,
+  .cards table tbody tr td:nth-child(2) img {
+    max-width: 360px !important;
+  }
 }
