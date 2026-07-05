@@ -785,10 +785,23 @@ a.button {
   font-size: 92px;
 }
 
-body {
-  outline: 10px solid red !important;
+/* Hide visible markdown heading hashes inside published cards */
+.cards h1::before,
+.cards h2::before,
+.cards h3::before,
+.cards h4::before,
+.cards h5::before,
+.cards h6::before {
+  content: "" !important;
 }
 
-h1 {
-  color: red !important;
+.cards h1,
+.cards h2,
+.cards h3,
+.cards h4,
+.cards h5,
+.cards h6 {
+  &::first-letter {
+    font-size: 0;
+  }
 }
