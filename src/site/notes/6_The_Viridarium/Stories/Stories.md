@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"stories","permalink":"/stories/","dg-note-properties":{"cssclasses":["cards","cards-cover"]}}
+{"dg-publish":true,"dg-permalink":"stories","permalink":"/stories/","contentClasses":"cards cards-cover","dg-note-properties":{"cssclasses":["cards","cards-cover"]}}
 ---
 
 
