@@ -4,9 +4,18 @@
 
 
 > [!info] Story Information
-> **Cover** :: ![5_The_Magazenum/5.1_The_Emblemata/18 Other/18.00 Website/gender.jpg](/img/user/5_The_Magazenum/5.1_The_Emblemata/18%20Other/18.00%20Website/gender.jpg)
-> **Logline** :: A closeted trans man survives a near-fatal overdose in his rundown trailer, sparked by a visionary encounter with an ancestor that forces him to fight for his life before he is buried under a lie.
-> **Warnings** :: Heroin use, overdose, misgendered, poverty, mental illness, controlling behavior, implied domestic abuse, referenced dementia, medical trauma.
+> ![5_The_Magazenum/5.1_The_Emblemata/18 Other/18.00 Website/gender.jpg](/img/user/5_The_Magazenum/5.1_The_Emblemata/18%20Other/18.00%20Website/gender.jpg)
+> **Logline:** A closeted trans man survives a near-fatal overdose in his rundown trailer, sparked by a visionary encounter with an ancestor that forces him to fight for his life before he is buried under a lie.
+> **Warnings:**
+> - Heroin use
+> - Overdose
+> - Misgendering
+> - Poverty
+> - Mental illness
+> - Controlling behavior
+> - Implied domestic abuse
+> - Referenced dementia
+> - Medical trauma.
 
 # Asgayusdi Udanta
 She wakes up because his arm is heavy. That’s all it is. Not a bad feeling, not a nightmare—just the meat-hook weight of him flung over her ribs sometime in the night, sitting there like a sandbag nobody bothered to move. The trailer’s choked with orange light leaking through the ratty towel she stapled over the window her own self, year before last, on account of Randy’s cheap ass being too dadgum tight to buy curtains. The light ain’t pretty. It just sits there, heavy and blinding, giving her nothing but a mind to go smack the neighbor upside his balding, sun-scalded head.
