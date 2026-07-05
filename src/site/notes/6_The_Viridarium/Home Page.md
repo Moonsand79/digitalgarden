@@ -13,7 +13,7 @@
 
 <div align="center">
 
-## *​A ledger for the strange, the quiet, and the half-remembered.*
+*​A ledger for the strange, the quiet, and the half-remembered.*
 
 </div>
 
