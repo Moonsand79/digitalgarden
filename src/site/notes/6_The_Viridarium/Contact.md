@@ -1,0 +1,44 @@
+---
+{"dg-publish":true,"dg-permalink":"contact","permalink":"/contact/","dg-note-properties":{}}
+---
+
+
+<div align="center">
+
+# — CONTACT —
+
+</div>
+
+<div align="center">
+
+## *Where to find me.*
+
+</div>
+
+***
+
+If you want to talk about writing, music, or anything else on this site, the best way to reach me directly is by email:
+
+📧 **gowaniicarter@gmail.com**
+
+***
+
+### Elsewhere
+
+I am generally around on these platforms under **gowaniios**:
+
+- [Tumblr](https://tumblr.com/gowaniios) — *Where most of the writing thoughts and longer posts live.*
+- [Discord](https://discord.com) — *For direct messaging or chat.*
+- [Bluesky](https://bsky.app/profile/gowaniios.bsky.social)
+- [Twitter / X](https://twitter.com/gowaniios) 
+- [Threads](https://threads.net/@gowaniios)
+- [Instagram](https://instagram.com/gowaniios)
+- [TikTok](https://tiktok.com/@gowaniios)
+
+***
+
+<div align="center">
+
+#### [[6_The_Viridarium/Home Page\|Back to Main]] | [[6_The_Viridarium/About\|Back to About]]
+
+</div>
