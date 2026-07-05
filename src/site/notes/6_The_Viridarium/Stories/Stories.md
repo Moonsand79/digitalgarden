@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# — The Stories —
+# The Stories
 
 </div>
 
