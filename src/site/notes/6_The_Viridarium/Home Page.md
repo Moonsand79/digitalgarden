@@ -21,7 +21,7 @@
 
 ***
 
-### 🖋️ Main Project: *To Plunder A Heart*
+### 🖋️ Main Project: *Washie & The Wall*
 In 1981 Belfast, the civilian eldest son of a prominent Provisional IRA commander risks his family’s safety and his own life by crossing militarized sectors to secret away with a stealth Protestant trans woman, forcing his battle-hardened father to weaponize the movement's underground network to build the couple an illegal, paper fortress against a polarized city.
 - **Status:** Drafting
 - **Themes:** Identity, Independence
