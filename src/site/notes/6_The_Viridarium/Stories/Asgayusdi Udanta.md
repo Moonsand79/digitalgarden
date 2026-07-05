@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"Asgayusdi Udanta","permalink":"/Asgayusdi Udanta/","dg-note-properties":{"cssclasses":"prose"}}
+{"dg-publish":true,"dg-permalink":"Asgayusdi Udanta","permalink":"/Asgayusdi Udanta/","contentClasses":"prose","dg-note-properties":{"cssclasses":"prose"}}
 ---
 
 
@@ -9,7 +9,6 @@
 > **Warnings** :: Heroin use, overdose, misgendered, poverty, mental illness, controlling behavior, implied domestic abuse, referenced dementia, medical trauma.
 
 # Asgayusdi Udanta
-
 She wakes up because his arm is heavy. That’s all it is. Not a bad feeling, not a nightmare—just the meat-hook weight of him flung over her ribs sometime in the night, sitting there like a sandbag nobody bothered to move. The trailer’s choked with orange light leaking through the ratty towel she stapled over the window her own self, year before last, on account of Randy’s cheap ass being too dadgum tight to buy curtains. The light ain’t pretty. It just sits there, heavy and blinding, giving her nothing but a mind to go smack the neighbor upside his balding, sun-scalded head.
 
 Randy’s already up. Or up enough. She ain’t ever know when the man sleeps, and she quit wondering a long while back.
@@ -19,6 +18,7 @@ Randy’s already up. Or up enough. She ain’t ever know when the man sleeps, a
 His lips land on her shoulder, that briar-patch beard scraping her freckled skin, then up her neck slow, like he’s got all day and all night—which he does—till he gets to her mouth. She lets him, on account of the math on telling him no ain’t never once worked out in her favor. His breath is sour enough to peel paint, and under that, the sharp bite of his Lucky Strikes, and under that, something she quit trying to name two winters back. Naming it didn’t fix nothing. Just soured her stomach worse.
 
 “Prettiest girl in the whole damn park,” he says. Says it nigh on every morning, been saying it since they first crossed paths, could likely say it asleep—some old prayer he don’t believe no more but keeps reciting on account of quitting would mean admitting something he ain’t got the grit to face.
+
 She don’t say nothing back. There ain’t a back to say.
 
 He gets up, scratching his hairy belly while the mattress hollers the way it does, springs long since give out on his side.
@@ -26,6 +26,7 @@ He gets up, scratching his hairy belly while the mattress hollers the way it doe
 “Got you took care of,” he says, jerking his chin at the Prince Albert tin sitting up on the wardrobe, like it’s nothing, like it’s a plate of leftover biscuits. She knows he drove clean to Huntington for it yesterday, and she knows he’s itching for credit—a pat on the head and a trip to bed for his trouble. He lingers a second too long. When she don’t give him satisfaction, he goes and turns the TV up too loud for this time of morning.
 
 The trailer smells the way it always smells. Cigarette smoke’s soaked so deep into the paneling that pure Odoban couldn’t scrub it clean. Something sweetish and rotten sits under that, maybe coming up out of the shag carpet—Lord only knows what’s buried down in them fibers. Over by the sink, a blowfly keeps throwing itself at the window glass, over and over, and neither one of them has ever once got up to swat it loose. It just gets to keep thumping till it peters out on its own.
+
 Her mamaw’s house used to smell like fatback and sage. She don’t go looking for that memory. It just shows up uninvited, the way something from years back will walk on into a room and take a seat without asking.
 
 “Don’t take all day, baby,” Randy says, eyes glued to last Sunday’s NASCAR tape. “Beau’s coming by around dinner.”
@@ -35,6 +36,7 @@ The bathroom ain’t no bigger than a broom closet. The tub’s got a rust stain
 The clock on the wall got stole right out of his daddy’s shop, Higginbotham Towing, still readable under the grease. Says 5:42. Runs twenty minutes slow, has for over a year, on account of nobody in this trailer fixes a blessed thing. They just learn where the breaking point sits and build a whole life around it.
 
 She sits down on the commode and pops the tin. Her hands know the dance without her even looking, and somewhere down under all of it a quiet word surfaces. Osiyo. Hello. To nobody. She don’t know why it’s bubbling up now instead of some other time, and she don’t chase after it.
+
 The tie goes round her arm, cinched with her teeth, same as always. That vein’s an old friend gotten a whole lot harder to find these days, collapsing a little more each year, same as her. That sour, rotten stink she ain’t never once liked, not in five years of doing this.
 
 Then the push.
@@ -57,7 +59,7 @@ Her throat’s dry. He looks up from the netting, eyes dark, and he ain’t look
 
 “I am Inagehi,” he says, the name settling like a river stone into a bank. “I tend the fire for those who come after. You have walked a long way down the creek, little one, but you are still with your own blood.”
 
-“My mamaw used to talk about the old people,” she says. “Said we had ‘em back in the ridges, before—”
+"My mamaw used to talk about the old people,” she says. “Said we had ‘em back in the ridges, before—”
 
 He nods slow, needle never missing a loop. “You have your grandmother’s eyes.”
 
@@ -74,6 +76,7 @@ She pulls her knees to her chest, tucks her chin against her skin, feeling bare 
 She looks at him a long moment—the soft swell above his ribs, the hard set of his jaw, the quiet, solid way he sits in his own skin like it never once occurred to him to sit any other way. A man. Sure as the sun, and nobody’s ever told him different, and nobody’s ever had to.
 
 Something cold drops through the middle of his chest. His—the word lands before he can stop it, before he’s got a single reason he could give for it.
+
 If I die out there, they’re gonna put me in a dress. Bury me a girl.
 
 The thought near chokes him. He don’t have the words yet for what he is, only the dead certainty of what he ain’t, rising up out of some place under the fear, older than the fear. He can’t go out like that. Can’t go out a lie.
@@ -81,11 +84,13 @@ The thought near chokes him. He don’t have the words yet for what he is, only 
 “I gotta go back,” he says, voice cracking, fingers digging into the packed dirt till his nails ache. “Inagehi, I can’t stay. You don’t understand, they’ll—”
 
 “I understand.” Inagehi sets the netting down, looks at him with that same heavy, unblinking truth filling up the whole round house. He don’t say the word. He don’t need to. “Go back to your valley, little one. We’ll be here when you’re ready.”
+
 The winter house blurs, cedar and bark smoke turning thin and sour. The warmth leaves his cheeks all at once, a terrible weight settling down over his nose and mouth instead. The dark edges of the room begin to thump, vibrating with a sound that ain’t a clock.
 
 “...Persephone? Goddamn it, baby, stay with me…”
 
 Randy’s voice scraped through the dark, high and tore up, traveling like it’s coming through miles of muddy water. A hand smacks his cheek, far off, like it’s landing on somebody else’s face. He’s sliding back down the ridge, cold mud pulling at his boots, but he ain’t all the way down yet.
+
 The mud keeps pulling, dragging him out of that warm earthen lodge till the cedar smell goes clean. The sour stink of the trailer bathroom hits him full in the face, thick enough to choke on.
 
 “...come on, come on, don’t you do this to me…”
@@ -99,4 +104,5 @@ The bathroom door slams back against the drywall. Heavy boots. Loud, fast-talkin
 “We got a pulse, but it’s faint. Bag her. Watch that line.”
 
 The words just float, no louder than that fly thumping the kitchen window. He’s hung there in the gray space between the linoleum and the packed dirt, not fully in either one, waiting to see which way the table tips.
+
 
