@@ -5,13 +5,13 @@
 
 <div align="center">
 
-# — THE STORIES —
+# — The Stories —
 
 </div>
 
 <div align="center">
 
-## *A collection of my original fiction, fanfiction, and ongoing projects.*
+*A collection of my original fiction, fanfiction, and ongoing projects.*
 
 </div>
 
