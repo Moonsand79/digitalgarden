@@ -1,0 +1,38 @@
+/* =========================================================================
+ *  Flanking Flowers Fix (Left and Right Sides of H3)
+ *  ========================================================================= */
+
+/* Ensure the heading acts as a clean container for both sides */
+.markdown-rendered h3,
+.markdown-preview-view h3,
+.canvas-node-content h3 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+/* Force Left Flower */
+.markdown-rendered h3::before,
+.markdown-preview-view h3::before,
+.canvas-node-content h3::before {
+    content: "❀" !important;
+    display: inline-block !important;
+    margin-right: 12px !important;
+    color: var(--interactive-accent) !important;
+    opacity: 1 !important;
+    font-family: serif !important;
+}
+
+/* Force Right Flower */
+.markdown-rendered h3::after,
+.markdown-preview-view h3::after,
+.canvas-node-content h3::after {
+    content: "❀" !important;
+    display: inline-block !important;
+    margin-left: 12px !important;
+    color: var(--interactive-accent) !important;
+    opacity: 1 !important;
+    font-family: serif !important;
+}
