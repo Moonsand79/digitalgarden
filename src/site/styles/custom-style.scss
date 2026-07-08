@@ -9368,3 +9368,45 @@ body {
     margin-top: 1.5rem !important;
     margin-bottom: 1.5rem !important;
 }
+
+html,
+body,
+.theme-light,
+.theme-dark,
+.markdown-preview-view,
+.content,
+.site-body,
+main,
+article {
+  background: #e9f5dd !important;
+  color: #192903 !important;
+}
+
+body {
+  --background-primary: #e9f5dd !important;
+  --background-secondary: #d4dfc8 !important;
+  --text-normal: #192903 !important;
+  --text-muted: #4a5c31 !important;
+  --heading-color: #9D3B5A !important;
+  --link-color: #ff9fbc !important;
+  --link-color-hover: #9D3B5A !important;
+  --accent-color: #9D3B5A !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #9D3B5A !important;
+}
+
+a,
+.internal-link,
+.external-link {
+  color: #ff9fbc !important;
+}
+
+blockquote,
+.callout,
+.markdown-preview-view blockquote {
+  background: #dfebd3 !important;
+  border-color: #aebca1 !important;
+  color: #192903 !important;
+}
