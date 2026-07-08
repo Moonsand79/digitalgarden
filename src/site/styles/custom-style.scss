@@ -9160,52 +9160,70 @@ body {
   --file-line-width: 100%;
 }
 /* ==========================================
-   Style Manager Preset: Green (Digital Garden Fix)
+   Style Manager Preset: Green (Digital Garden Overrides)
    ========================================== */
 
 :root {
-  /* Preset Global Accent Configuration */
+  /* Global Theme Accent */
   --accent-color: #FFB6C1;
   --accent-color-rgb: 255, 182, 193;
+}
 
-  /* Custom Callout Accents */
+/* --- LIGHT MODE (Meadow Green) --- */
+:root, body.theme-light, .theme-light {
+  /* Override background to match your pale sage green vault */
+  --background-primary: #e9f5dd;
+  --background-primary-alt: #dfebd3;
+  --background-secondary: #d4dfc8;
+  
+  /* Text and headers */
+  --text-normal: #192903;
+  --text-muted: #4a5c31;
+  --text-faint: #73865a;
+  --heading-color: #192903;
+  
+  /* Table & Callout base colors */
+  --color-base-00: #e9f5dd;
+  --color-base-10: #dfebd3;
+  --color-base-20: #d4dfc8;
+  --color-base-100: #192903;
+  --color-green-rgb: 25, 41, 3;
   --callout-default: var(--color-green-rgb);
 }
 
-/* Force the green variants to apply globally on your site */
-body {
-  /* --- The Magic Fix: Injecting the Meadow/Forest variants directly --- */
-  /* For Light Mode: Maps the 'fas-meadow' styling rules */
-  --theme-variant-light: fas-meadow;
-  --fas-theme-dark-print: fas-theme-light-print;
-
-  /* For Dark Mode: Maps the 'fas-forest' styling rules */
-  --theme-variant-dark: fas-forest;
+/* --- DARK MODE (Forest Green) --- */
+body.theme-dark, .theme-dark {
+  /* Override background to deep forest colors */
+  --background-primary: #0f1c11;
+  --background-primary-alt: #162619;
+  --background-secondary: #1d3321;
   
-  /* Custom Accent Algorithms & Accessibility */
+  /* Text and headers */
+  --text-normal: #d2e6d5;
+  --text-muted: #9bbda2;
+  --text-faint: #6c8f74;
+  --heading-color: #d2e6d5;
+  
+  /* Table & Callout base colors */
+  --color-base-00: #0f1c11;
+  --color-base-10: #162619;
+  --color-base-20: #1d3321;
+  --color-base-100: #d2e6d5;
+}
+
+/* --- Core Display Configurations --- */
+body {
+  --inline-title-color: var(--text-normal);
+  --fas-list-style: bullet-threading;
+  --table-style: fas-border-tables;
+  --fas-skin-select: fas-skin-medieval;
+  --image-centered: true;
+  --fas-bg-textures: false;
   --fas-adaptive-accent: true;
   --fas-opposite-bg: true;
   --fas-accessibility: true;
-  
-  /* Layout Options & Skins */
-  --image-centered: true;
-  --fas-bg-textures: false;
-  --hide-properties: false;
-
-  /* Visual Feature Classes */
-  --fas-rainbow-folders: disable;
-  --fas-list-style: bullet-threading;
-  --table-style: fas-border-tables;
-  --header-color: fas-headings-rainbow;
-  --fas-skin-select: fas-skin-medieval;
-
-  /* Callout Formatting Modifications */
   --fas-callout-cite-alt: true;
   --fas-callout-infobox: true;
   --fas-infobox-lp-mini: true;
   --fas-list-callout: enable;
-
-  /* Statblock Overrides */
-  --fas-statblocks-custom: true;
-  --fas-statblocks-accent-class: fas-statblocks-accent;
 }
