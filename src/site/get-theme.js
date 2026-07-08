@@ -1,27 +1,46 @@
 require("dotenv").config();
+const axios = require("axios");
 const fs = require("fs");
 const crypto = require("crypto");
 const {globSync} = require("glob");
 
+const themeCommentRegex = /\/\*[\s\S]*?\*\//g;
+
 async function getTheme() {
-  try {
-    // 1. Read your uploaded theme.css file directly from your project folder
-    const data = fs.readFileSync("theme.css", "utf8");
+  let themeUrl = process.env.THEME;
+  if (themeUrl) {
+    //https://forum.obsidian.md/t/1-0-theme-migration-guide/42537
+    //Not all themes with no legacy mark have a theme.css file, so we need to check for it
+    try {
+      await axios.get(themeUrl);
+    } catch {
+      if (themeUrl.indexOf("theme.css") > -1) {
+        themeUrl = themeUrl.replace("theme.css", "obsidian.css");
+      } else if (themeUrl.indexOf("obsidian.css") > -1) {
+        themeUrl = themeUrl.replace("obsidian.css", "theme.css");
+      }
+    }
 
-    // 2. Clean out old theme builds
-    const existing = globSync("src/site/styles/_theme.*.css");
-    existing.forEach((file) => {
-      fs.rmSync(file);
+    const res = await axios.get(themeUrl);
+    try {
+      const existing = globSync("src/site/styles/_theme.*.css");
+      existing.forEach((file) => {
+        fs.rmSync(file);
+      });
+    } catch {}
+    let skippedFirstComment = false;
+    const data = res.data.replace(themeCommentRegex, (match) => {
+      if (skippedFirstComment) {
+        return "";
+      } else {
+        skippedFirstComment = true;
+        return match;
+      }
     });
-
-    // 3. Hash and write the file locally so the build finishes smoothly
     const hashSum = crypto.createHash("sha256");
     hashSum.update(data);
     const hex = hashSum.digest("hex");
     fs.writeFileSync(`src/site/styles/_theme.${hex.substring(0, 8)}.css`, data);
-    console.log("Successfully loaded theme.css locally!");
-  } catch (err) {
-    console.error("Local theme build failed:", err);
   }
 }
 
