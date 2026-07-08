@@ -78,7 +78,7 @@
   --color-cyan: #00bfbc;   --color-cyan-rgb: 0, 191, 188;
   --color-blue: #086ddd;   --color-blue-rgb: 8, 109, 221;
   --color-purple: #7852ee; --color-purple-rgb: 120, 82, 238;
-  --color-pink: #d53984;   --color-pink-rgb: 213, 57, 132;
+  --color-pink: #9D3B5A;   --color-pink-rgb: 157, 59, 90;
   --color-brown: #92664c;  --color-brown-rgb: 146, 102, 76;
   --color-gray: #808080;   --color-gray-rgb: 128, 128, 128;
   --color-base-00: #ffffff; --color-base-10: #fafafa;
@@ -96,7 +96,7 @@
   --color-cyan: #53dfdd;   --color-cyan-rgb: 83, 223, 221;
   --color-blue: #027aff;   --color-blue-rgb: 2, 122, 255;
   --color-purple: #a882ff; --color-purple-rgb: 168, 130, 255;
-  --color-pink: #fa99cd;   --color-pink-rgb: 250, 153, 205;
+  --color-pink: #9D3B5A;   --color-pink-rgb: 157, 59, 90;
   --color-brown: #a97142;  --color-brown-rgb: 169, 113, 66;
   --color-gray: #9e9e9e;   --color-gray-rgb: 158, 158, 158;
   --color-base-00: #1e1e1e; --color-base-10: #242424;
@@ -313,8 +313,8 @@ img[alt~=cassette-blue] {
 img[alt~=cassette-purple] {
   filter: hue-rotate(260deg);
 }
-.media-embed[alt~=cassette-#9D3B5A],
-img[alt~=cassette-#9D3B5A] {
+.media-embed[alt~=cassette-pink],
+img[alt~=cassette-pink] {
   filter: hue-rotate(310deg);
 }
 body {
@@ -1917,9 +1917,9 @@ body {
     --shift-color-even: var(--color-blue);
     --shift-color-odd: var(--color-pink);
   }
-  .callout[data-callout=conversation-minimalist][data-callout-metadata~=#9D3B5A],
-  .callout[data-callout=conversation][data-callout-metadata~=#9D3B5A],
-  .callout[data-callout=conversation-outline][data-callout-metadata~=#9D3B5A] {
+  .callout[data-callout=conversation-minimalist][data-callout-metadata~=pink],
+  .callout[data-callout=conversation][data-callout-metadata~=pink],
+  .callout[data-callout=conversation-outline][data-callout-metadata~=pink] {
     --shift-color-even: var(--color-purple);
     --shift-color-odd: var(--color-red);
   }
@@ -2625,7 +2625,7 @@ body {
 .callout[data-callout=fas-infobox][data-callout-metadata~=purple] [data-callout=footer] {
   --callout-color: var(--color-purple);
 }
-.callout[data-callout=fas-infobox][data-callout-metadata~=#9D3B5A] [data-callout=footer] {
+.callout[data-callout=fas-infobox][data-callout-metadata~=pink] [data-callout=footer] {
   --callout-color: var(--color-pink);
 }
 /* corners */
@@ -2984,7 +2984,7 @@ body {
   .callout[data-callout=infobox][data-callout-metadata~=purple] [data-callout=footer] {
     --callout-color: var(--color-purple);
   }
-  .callout[data-callout=infobox][data-callout-metadata~=#9D3B5A] [data-callout=footer] {
+  .callout[data-callout=infobox][data-callout-metadata~=pink] [data-callout=footer] {
     --callout-color: var(--color-pink);
   }
   /* corners */
@@ -3850,7 +3850,7 @@ body {
 .callout:not([data-callout=page-break])[data-callout-metadata~=purple] > .callout-content > .callout[data-callout=page-break] {
   --callout-color: var(--color-purple);
 }
-.callout:not([data-callout=page-break])[data-callout-metadata~=#9D3B5A] > .callout-content > .callout[data-callout=page-break] {
+.callout:not([data-callout=page-break])[data-callout-metadata~=pink] > .callout-content > .callout[data-callout=page-break] {
   --callout-color: var(--color-pink);
 }
 .callout:not([data-callout=page-break])[data-callout-metadata~=black] > .callout-content > .callout[data-callout=page-break] {
@@ -5075,7 +5075,7 @@ body {
 .callout[data-callout-metadata~=purple] {
   --callout-color: var(--color-purple);
 }
-.callout[data-callout-metadata~=#9D3B5A] {
+.callout[data-callout-metadata~=pink] {
   --callout-color: var(--color-pink);
 }
 .callout[data-callout-metadata~=black] {
@@ -6248,7 +6248,7 @@ body {
 .footer-img-purple {
   --footer-img-color: var(--color-purple);
 }
-.footer-img-#9D3B5A {
+.footer-img-pink {
   --footer-img-color: var(--color-pink);
 }
 @media screen {
@@ -6263,7 +6263,7 @@ body {
   .footer-img-cyan,
   .footer-img-blue,
   .footer-img-purple,
-  .footer-img-#9D3B5A {
+  .footer-img-pink {
     background-color: var(--workleaves-background);
   }
   .footer-img>.cm-s-obsidian>div:nth-last-child(1 of div.el-p),
@@ -6288,8 +6288,8 @@ body {
   .footer-img-blue>.cm-s-obsidian>div:nth-last-child(1 of div),
   .footer-img-purple>.cm-s-obsidian>div:nth-last-child(1 of div.el-p),
   .footer-img-purple>.cm-s-obsidian>div:nth-last-child(1 of div),
-  .footer-img-#9D3B5A>.cm-s-obsidian>div:nth-last-child(1 of div.el-p),
-  .footer-img-#9D3B5A>.cm-s-obsidian>div:nth-last-child(1 of div) {
+  .footer-img-pink>.cm-s-obsidian>div:nth-last-child(1 of div.el-p),
+  .footer-img-pink>.cm-s-obsidian>div:nth-last-child(1 of div) {
     --image-shadow-offset: 0;
     position: sticky;
     bottom: -6px;
@@ -6323,8 +6323,8 @@ body {
   .footer-img-blue>.cm-s-obsidian>div:nth-last-child(1 of div) p,
   .footer-img-purple>.cm-s-obsidian>div:nth-last-child(1 of div.el-p) p,
   .footer-img-purple>.cm-s-obsidian>div:nth-last-child(1 of div) p,
-  .footer-img-#9D3B5A>.cm-s-obsidian>div:nth-last-child(1 of div.el-p) p,
-  .footer-img-#9D3B5A>.cm-s-obsidian>div:nth-last-child(1 of div) p {
+  .footer-img-pink>.cm-s-obsidian>div:nth-last-child(1 of div.el-p) p,
+  .footer-img-pink>.cm-s-obsidian>div:nth-last-child(1 of div) p {
     margin: 0;
     background-color: var(--footer-img-color);
     mix-blend-mode: exclusion;
@@ -6352,8 +6352,8 @@ body {
   .footer-img-blue>.cm-s-obsidian>div:nth-last-child(1 of div) img,
   .footer-img-purple>.cm-s-obsidian>div:nth-last-child(1 of div.el-p) img,
   .footer-img-purple>.cm-s-obsidian>div:nth-last-child(1 of div) img,
-  .footer-img-#9D3B5A>.cm-s-obsidian>div:nth-last-child(1 of div.el-p) img,
-  .footer-img-#9D3B5A>.cm-s-obsidian>div:nth-last-child(1 of div) img {
+  .footer-img-pink>.cm-s-obsidian>div:nth-last-child(1 of div.el-p) img,
+  .footer-img-pink>.cm-s-obsidian>div:nth-last-child(1 of div) img {
     height: var(--footer-img-height);
     width: 100%;
     object-fit: cover;
@@ -6372,7 +6372,7 @@ body {
   .footer-img-cyan>.cm-s-obsidian,
   .footer-img-blue>.cm-s-obsidian,
   .footer-img-purple>.cm-s-obsidian,
-  .footer-img-#9D3B5A>.cm-s-obsidian {
+  .footer-img-pink>.cm-s-obsidian {
     padding-bottom: 0 !important;
   }
   .theme-dark [class*=footer-img]>.cm-s-obsidian>div:nth-last-child(1 of div.el-p),
@@ -7685,8 +7685,8 @@ img[alt~=blue] {
 img[alt~=purple] {
   --image-shadow-color: rgba(var(--color-purple-rgb), 0.2);
 }
-.image-embed[alt~=#9D3B5A],
-img[alt~=#9D3B5A] {
+.image-embed[alt~=pink],
+img[alt~=pink] {
   --image-shadow-color: rgba(var(--color-pink-rgb), 0.2);
 }
 img[alt~=black-and-white],
@@ -9369,105 +9369,70 @@ body {
     margin-bottom: 1.5rem !important;
 }
 
-/* ==========================================
-   Final Digital Garden color lock
-   Keeps the site on pale sage + rosy mauve.
-   Put this at the very end so older snippet colors cannot win.
-   ========================================== */
-
-:root,
-body,
-body.theme-light,
-.theme-light {
-  --accent-color: #9D3B5A !important;
-  --accent-color-rgb: 157, 59, 90 !important;
-  --color-accent: #9D3B5A !important;
-  --color-accent-1: #9D3B5A !important;
-  --color-accent-2: #9D3B5A !important;
-  --interactive-accent: #9D3B5A !important;
-  --link-color: #9D3B5A !important;
-  --link-color-hover: #9D3B5A !important;
-  --link-decoration-color: #9D3B5A !important;
-  --heading-color: #9D3B5A !important;
-
-  --background-primary: #e9f5dd !important;
-  --background-primary-alt: #dfebd3 !important;
-  --background-secondary: #d4dfc8 !important;
-  --text-normal: #192903 !important;
-  --text-muted: #4a5c31 !important;
-  --text-faint: #73865a !important;
-}
-
-body.theme-dark,
-.theme-dark {
-  --background-primary: #0f1c11 !important;
-  --background-primary-alt: #162619 !important;
-  --background-secondary: #1d3321 !important;
-  --text-normal: #d2e6d5 !important;
-  --text-muted: #9bbda2 !important;
-  --text-faint: #6c8f74 !important;
-  --heading-color: #d2e6d5 !important;
-}
-
 html,
 body,
+.theme-light,
+.theme-dark,
 .markdown-preview-view,
-.markdown-rendered,
-.cm-s-obsidian,
 .content,
 .site-body,
 main,
 article {
-  background: var(--background-primary) !important;
-  color: var(--text-normal) !important;
+  background: #e9f5dd !important;
+  color: #192903 !important;
+}
+
+body {
+  --background-primary: #e9f5dd !important;
+  --background-secondary: #d4dfc8 !important;
+  --text-normal: #192903 !important;
+  --text-muted: #4a5c31 !important;
+  --heading-color: #9D3B5A !important;
+  --link-color: #9D3B5A !important;
+  --link-color-hover: #9D3B5A !important;
+  --accent-color: #9D3B5A !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #9D3B5A !important;
+}
+
+a,
+.internal-link,
+.external-link {
+  color: #9D3B5A !important;
+}
+
+blockquote,
+.callout,
+.markdown-preview-view blockquote {
+  background: #dfebd3 !important;
+  border-color: #aebca1 !important;
+  color: #192903 !important;
+}
+
+:root {
+  --accent-color: #9D3B5A !important;
+  --link-color: #9D3B5A !important;
 }
 
 a,
 .internal-link,
 .external-link,
-.cm-s-obsidian a,
-.cm-s-obsidian .internal-link,
-.cm-s-obsidian .external-link {
-  color: var(--link-color) !important;
-  text-decoration-color: var(--link-decoration-color) !important;
-}
-
-h1, h2, h3, h4, h5, h6,
-.cm-s-obsidian h1,
-.cm-s-obsidian h2,
-.cm-s-obsidian h3,
-.cm-s-obsidian h4,
-.cm-s-obsidian h5,
-.cm-s-obsidian h6,
-.header,
-.sidebar-title {
-  color: var(--heading-color) !important;
-  text-decoration-color: var(--heading-color) !important;
-}
-
-h1::before, h2::before, h3::before, h4::before, h5::before, h6::before,
-h1::after, h2::after, h3::after, h4::after, h5::after, h6::after,
-.cm-s-obsidian h1::before, .cm-s-obsidian h2::before, .cm-s-obsidian h3::before,
-.cm-s-obsidian h4::before, .cm-s-obsidian h5::before, .cm-s-obsidian h6::before,
-.cm-s-obsidian h1::after, .cm-s-obsidian h2::after, .cm-s-obsidian h3::after,
-.cm-s-obsidian h4::after, .cm-s-obsidian h5::after, .cm-s-obsidian h6::after {
-  color: var(--heading-color) !important;
-}
-
-blockquote,
-.callout,
-.markdown-preview-view blockquote,
-.cm-s-obsidian blockquote {
-  background: var(--background-primary-alt) !important;
-  border-color: #aebca1 !important;
-  color: var(--text-normal) !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #9D3B5A !important;
 }
 
 svg,
 svg *,
 .icon,
 .icon svg {
-  color: var(--accent-color) !important;
+  color: #9D3B5A !important;
   fill: currentColor !important;
   stroke: currentColor !important;
 }
