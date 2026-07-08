@@ -9410,3 +9410,29 @@ blockquote,
   border-color: #aebca1 !important;
   color: #192903 !important;
 }
+
+:root {
+  --accent-color: #9D3B5A !important;
+  --link-color: #9D3B5A !important;
+}
+
+a,
+.internal-link,
+.external-link,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #9D3B5A !important;
+}
+
+svg,
+svg *,
+.icon,
+.icon svg {
+  color: #9D3B5A !important;
+  fill: currentColor !important;
+  stroke: currentColor !important;
+}
