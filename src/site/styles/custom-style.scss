@@ -9331,6 +9331,14 @@ body {
     text-indent: 0.5in !important;
 }
 
+/* IMAGE PROTECTION: Completely kill indentation if the block contains an image */
+.prose p:has(img),
+.prose p:has(.image-embed),
+.prose .cm-line:has(img),
+.prose .cm-line:has(.image-embed) {
+    text-indent: 0px !important;
+}
+
 /* EXCLUSIONS: Kill the indent on the absolute first paragraph of the document */
 .prose .markdown-preview-section > div:first-child p,
 .prose .markdown-rendered p:first-of-type,
