@@ -9160,7 +9160,7 @@ body {
   --file-line-width: 100%;
 }
 /* ==========================================
-   Style Manager Preset: Green
+   Style Manager Preset: Green (Digital Garden Fix)
    ========================================== */
 
 :root {
@@ -9172,8 +9172,16 @@ body {
   --callout-default: var(--color-green-rgb);
 }
 
-/* Apply theme variants and options globally to the main workspace container */
+/* Force the green variants to apply globally on your site */
 body {
+  /* --- The Magic Fix: Injecting the Meadow/Forest variants directly --- */
+  /* For Light Mode: Maps the 'fas-meadow' styling rules */
+  --theme-variant-light: fas-meadow;
+  --fas-theme-dark-print: fas-theme-light-print;
+
+  /* For Dark Mode: Maps the 'fas-forest' styling rules */
+  --theme-variant-dark: fas-forest;
+  
   /* Custom Accent Algorithms & Accessibility */
   --fas-adaptive-accent: true;
   --fas-opposite-bg: true;
@@ -9200,14 +9208,4 @@ body {
   /* Statblock Overrides */
   --fas-statblocks-custom: true;
   --fas-statblocks-accent-class: fas-statblocks-accent;
-}
-
-/* Map Light and Dark Mode Color Variations */
-body.theme-light {
-  --theme-variant-light: fas-meadow;
-  --fas-theme-dark-print: fas-theme-light-print;
-}
-
-body.theme-dark {
-  --theme-variant-dark: fas-forest;
 }
