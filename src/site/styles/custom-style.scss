@@ -9227,3 +9227,82 @@ body {
   --fas-infobox-lp-mini: true;
   --fas-list-callout: enable;
 }
+
+/* --- FINAL COMPACT BOOK COVERS GRID SYSTEM --- */
+
+/* 1. Completely hide the default table header bar */
+.cards table.dataview thead {
+    display: none !important;
+}
+
+/* 2. Force cards into a clean grid row row instead of stacking */
+.cards table.dataview.table-view-table tbody {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
+    gap: 24px !important;
+    width: 100% !important;
+    padding: 12px 0 !important;
+    border-top: none !important; /* Removes default Dataview separator line */
+}
+
+/* 3. Build the uniform book card container */
+.cards table.dataview tbody tr {
+    background-color: var(--hex-surface) !important;
+    border: 1px solid var(--table-border-color) !important;
+    border-radius: 8px !important;
+    padding: 16px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* 4. Display the full book covers uncropped */
+.cards table.dataview tbody tr td:nth-child(2),
+.cards table.dataview tbody tr td:nth-child(2) img {
+    width: 100% !important;
+    max-width: 160px !important; 
+    height: 240px !important;    /* Clean 2:3 vertical aspect scale */
+    object-fit: contain !important;
+    margin: 0 auto 12px auto !important;
+    border-radius: 4px !important;
+    display: block !important;
+}
+
+/* 5. Custom Project Property Title Header */
+.cards table.dataview tbody tr td:nth-child(1) {
+    font-weight: 600 !important;
+    color: var(--h1-color) !important;
+    font-size: 1.05em !important; 
+    text-align: center !important;
+    margin-bottom: 10px !important;
+    padding: 0 !important;
+    order: -1 !important; /* Forces title to stay at the very top */
+}
+
+/* 6. Display FULL loglines seamlessly without cutting off */
+.cards table.dataview tbody tr td:nth-child(3) {
+    font-size: 0.82em !important;
+    line-height: 1.4 !important;
+    color: var(--hex-text) !important;
+    margin-bottom: 12px !important;
+    text-align: left !important;
+    display: block !important;    /* Removes line-clamping restriction */
+    overflow: visible !important; /* Lets text expand to its full length */
+    width: 100% !important;
+}
+
+/* 7. Centered Baseline Status Tracking */
+.cards table.dataview tbody tr td:nth-child(4) {
+    font-size: 0.75em !important;
+    font-weight: 600 !important;
+    color: var(--hex-muted) !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    text-align: center !important;
+    margin-top: auto !important; /* Pins status flawlessly to the bottom line */
+    padding-top: 4px !important;
+    width: 100% !important;
+}
